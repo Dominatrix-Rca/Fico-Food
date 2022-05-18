@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+<<<<<<< HEAD
 import ClientFun from './components/client/clientJoin';
 import { BrowserRouter,Routes,Route} from 'react-router-dom'
 import OverviewFun from './components/overview/overviewFun';
@@ -18,6 +19,13 @@ function App() {
       {/* <Overview/> */}
       </div>
 </>
+=======
+import NavBar from './components/navBar';
+
+function App() {
+  return (
+    <NavBar />
+>>>>>>> f46a42f45bdbb44bc975c0df200c70c8b64a03d5
   );
 }
 
