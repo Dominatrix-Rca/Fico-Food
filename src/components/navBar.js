@@ -14,7 +14,7 @@ class NavBar extends Component {
                  <FontAwesomeIcon icon={faSearch} className="text-orange-300 mr-6" />
                  <FontAwesomeIcon icon={faBell} className="text-orange-300 mr-6"/>
                  <p>Chef Laurent</p>
-                 <img src={profile} alt="profile Image" className="h-12 ml-4" />
+                 <img src={profile} alt="profile" className="h-12 ml-4" />
                 </div>
             </div>
         );
