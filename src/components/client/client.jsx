@@ -1,9 +1,13 @@
 import React from 'react';
 import './client.css';
+// import {useNavigate} from 'react-router-dom';
+import {Link} from "react-router-dom"
+// import Overview from './overview';
 
-function Client() {
+const Client =()=>{
+  // const navigate = useNavigate();
   return (
-    <div>
+  <div>
       <div className="container">
           <div className="left-side">
               <h1><span>Fico-</span>Food</h1>
@@ -21,13 +25,17 @@ function Client() {
               <label className="label">Email</label><br></br><input type="text" name="email" placeholder="Email"></input><br></br>
               <label className="label">Phone</label><br></br><input type="text" name="phone" placeholder="Phone"></input><br></br>
               <label className="label">Bank account&#x276A;IBAN&#x276B;</label><br></br><input type="text" name="bank" placeholder="Bank account"></input><br></br>
-              <button type="submit" className="add-client">Add client</button>
 
+              <Link to="/overview">
+              <button type="submit" className="add-client" >Add-client</button>
+              </Link>
             </form>
           </div>
       </div>
+      {/* <Overview /> */}
     </div>
   )
-}
+  }
+
 
 export default Client;

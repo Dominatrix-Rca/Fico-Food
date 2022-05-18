@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ClientFun from './components/client/clientJoin';
+import { BrowserRouter,Routes,Route} from 'react-router-dom'
+import OverviewFun from './components/overview/overviewFun';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/client' element={<ClientFun />}></Route>
+          <Route path='/overview' element={<OverviewFun />}></Route>
+        </Routes>
+      </BrowserRouter>
+      {/* <Overview/> */}
+      </div>
+</>
   );
 }
 
