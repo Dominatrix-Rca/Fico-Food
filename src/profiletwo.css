@@ -1,38 +1,27 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container{
     display: grid;
     grid-template-columns: auto auto;
-    /* column-gap: 20px; */
+    column-gap: 200px;
     justify-content: center;
 }
 .left{
-    /* border: 0.5px solid gray; */
     margin-top: 40px;
 }
-
-.logo h1{
-    color: black;
-    padding-left: 25px;
-    font-size: 2.5em;
-}
-.logo span{
-    color: orange;
-}
-
 
 .intro{
     border: 0.5px solid gray;
     border-radius: 20px;
-    height: 520px;
-    width: 350px;
-    /* padding-left: 80px; */
-    padding-top: 40px;
-    margin-top: 30px;
+    height: 650px;
+    width: 400px;
+    margin-left: 80px;
+    padding-top: 50px;
+    margin-top: 50px;
 }
 .intro .one{
     background-color: gray;
@@ -40,7 +29,7 @@
     border: 1px solid gray;
     border-radius: 500px;
     width: 50px;
-    height: 35px;
+    height: 50px;
     justify-content: center;
     padding-top: 15px;
     margin-top: 10px;
@@ -79,6 +68,8 @@
     padding-left: 100px;
     padding-bottom: 20px;
     display: grid;
+    font-weight: bolder;
+
 }
 .intro ul{
     list-style: none;
@@ -128,21 +119,20 @@
 .form{
     border: 0.5px solid gray;
     border-radius: 20px;
-    height:480px;
-    width: 500px;
+    height: 640px;
+    width: 700px;
     padding-left: 20px;
-    padding-top: 40px;
-    margin-left: 20px;
-    margin-top: 150px; 
-    /* space to be occupied by another div */
-    /* margin-right: 20px; */
+    padding-top:70px;
+    /* margin-left: 300px; */
+    margin-top: 100px; 
+    float: right;
 }
 .form input{
     margin-top: 20px;
-    margin-bottom: 12px;
-    padding: 15px;
-    width: 400px;
-    height: 10px; 
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 600px;
+    height: 45px;
     border-radius: 10px;
     border: 0.5px solid gray;
 }
@@ -151,15 +141,4 @@
     justify-content: center;
 }
 
-.bell, .search{
-    float: right;
-    margin-right: 40px;
-    margin-top: 30px;
-    font-size: 1.3em;
-    color: orange;
-}
-
-.bell:hover, .search:hover{
-    color: black;
-}
 

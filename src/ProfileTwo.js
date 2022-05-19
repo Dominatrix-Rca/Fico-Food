@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import './profiletwo.css'
-import Person from './Person'
-import FormTwo from './FormTwo'
-
-import Logo from './Logo'
+import FormTwo from './components/FormTwo'
 import RestoInfo from './components/RestoInfo'
 
 class ProfileTwo extends Component {
@@ -11,12 +8,10 @@ class ProfileTwo extends Component {
     return (
       <div className='container'>
           <div className='left'>
-              <Logo />
               <RestoInfo />
           </div>
           
             <div className='right'>
-                <Person />
                 <FormTwo />
             </div>
       </div>
