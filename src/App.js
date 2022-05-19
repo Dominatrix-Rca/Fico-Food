@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 import React from 'react';
->>>>>>> 67a52267f21622dcf38b1329f16e2111f1fd5f36
 import './App.css';
 import ClientFun from './components/client/clientJoin';
 import { BrowserRouter,Routes,Route} from 'react-router-dom'
