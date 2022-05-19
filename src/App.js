@@ -10,8 +10,7 @@ import { BrowserRouter, Routes, Route,Switch } from 'react-router-dom'
 function App() {
   return (
       <Routes>
-        <Route path="/login" element={<Login
-         />} />
+        <Route path="/login" element={<Login/>} />
         <Route path="/Signup" element={<Signup/>} />
       </Routes>
   );
