@@ -1,22 +1,22 @@
 import React, { Component } from 'react'
-import './profiletwo.css'
-import FormTwo from './components/FormTwo'
-import RestoInfo from './components/RestoInfo'
+import './profile.css'
+import Form from '../Form'
+import RestoInfo from '../components/RestoInfo'
 
-class ProfileTwo extends Component {
+class Profile extends Component {
   render() {
     return (
       <div className='container'>
           <div className='left'>
-              <RestoInfo />
+            <RestoInfo />
           </div>
           
             <div className='right'>
-                <FormTwo />
+                <Form />
             </div>
       </div>
     )
   }
 }
 
-export default ProfileTwo
+export default Profile

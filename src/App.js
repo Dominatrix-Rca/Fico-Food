@@ -1,12 +1,19 @@
 import './App.css';
 import NavBar from './components/navBar';
-import ProfileTwo from './ProfileTwo';
+import Homepage from './home/Homepage';
+// import Profile from './profile/Profile';
+// import ProfileTwo from './profiletwo/ProfileTwo';
 
 function App() {
   return (
     <div>
     <NavBar />
-    <ProfileTwo />
+    {/* <ProfileTwo /> */}
+    {/* <Profile /> */}
+    <Homepage />
+
+
+
     </div>
   );
 }

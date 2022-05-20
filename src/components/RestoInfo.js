@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../profiletwo.css'
+import '../profiletwo/profiletwo.css'
 class RestoInfo extends Component {
   render() {
     return (
